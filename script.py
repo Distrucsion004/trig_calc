@@ -19,12 +19,11 @@ def calc_sin(ang: float) -> float:
     sum = sum + t2
     sum = round(sum, 5)
     return sum
-o = str(input("Please enter a trigonometric function (for a list of supported functions ennter ""help""): "))
 funcs = ["sin", "cos", "tg", "ctg"]
 a = -1
 
 while (True):
-    o = str(input("Please enter a trigonometric function (for a list of supported functions ennter ""help""): "))
+    o = str(input("Please enter a trigonometric function (for a list of supported functions enter ""help""): "))
     a = -1
     if o.strip() == "help":
         print(funcs)
