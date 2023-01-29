@@ -1,0 +1,1 @@
+Python script that calculates trig functions, made for practice and because I was bored in math class.
